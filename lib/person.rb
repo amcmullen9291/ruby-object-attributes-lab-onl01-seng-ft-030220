@@ -1,4 +1,4 @@
-class Dog
+class Person 
  
   def name=(persons_name)
     @name = persons_name
@@ -18,6 +18,6 @@ class Dog
   
 end 
 
-beyonce= Dog.new 
+beyonce= Person.new 
 beyonce.name = "Beyonce"
 beyonce.job = "Singer"
