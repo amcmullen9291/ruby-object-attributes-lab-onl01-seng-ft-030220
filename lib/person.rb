@@ -8,18 +8,16 @@ class Dog
     @name
   end
   
-  def breed=(persons_name_breed)
-    @job = persons_name 
+  def job=(persons_job)
+    @job = persons_job 
   end
  
-  def breed 
-    @jo
+  def job 
+    @job
   end
   
 end 
 
-fido= Dog.new 
-fido.name = "Fido"
-
-snoopy = Dog.new
-snoopy.breed = "Beagle"
+beyonce= Dog.new 
+beyonce.name = "Beyonce"
+beyonce.job = "Singer"
