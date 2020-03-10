@@ -1,18 +1,25 @@
-class Person 
+class Dog
  
-  def name=(person_name)
-    @this_persons_name = person_name
+  def name=(dogs_name)
+    @name = dogs_name
   end
  
   def name
-    @this_dogs_name
+    @name
   end
   
-  def job=(person_breed)
-    @this_persons_job = person_job
+  def breed=(dogs_breed)
+    @breed = dogs_breed
   end
  
-  def job
-    @this_persons_job
+  def breed 
+    @breed
   end
-end
+  
+end 
+
+fido= Dog.new 
+fido.name = "Fido"
+
+snoopy = Dog.new
+snoopy.breed = "Beagle"
