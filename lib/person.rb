@@ -9,11 +9,11 @@ class Dog
   end
   
   def breed=(persons_name_breed)
-    @breed = persons_name 
+    @job = persons_name 
   end
  
   def breed 
-    @breed
+    @jo
   end
   
 end 
